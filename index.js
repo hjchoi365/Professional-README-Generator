@@ -8,7 +8,7 @@ const questions = [
     {
       type: 'input',
       name: 'username',
-      message: 'What is your GitHub username (Required) : ',
+      message: 'What is your GitHub username? (Required) : ',
       validate: nameInput => {
         if (nameInput) {
           return true;
@@ -21,7 +21,7 @@ const questions = [
     {
         type: 'input',
         name: 'eaddress',
-        message: 'What is your email address (Required) : ',
+        message: 'What is your email address? (Required) : ',
         validate: addressInput => {
             if (addressInput) {
               return true;
@@ -34,7 +34,7 @@ const questions = [
     {
         type: 'input',
         name: 'pname',
-        message: 'What is your project name (Required) : ',
+        message: 'What is your project name? (Required) : ',
         validate: projectInput => {
             if (projectInput) {
               return true;
@@ -47,7 +47,7 @@ const questions = [
     {
         type: 'input',
         name: 'pdescription',
-        message: 'Please provide decription of your project (Required) : ',
+        message: 'Please provide decription of your project? (Required) : ',
         validate: descInput => {
             if (descInput) {
               return true;
