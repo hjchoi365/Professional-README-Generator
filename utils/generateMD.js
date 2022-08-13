@@ -62,3 +62,5 @@ const generateMarkdown = data => {
   * For additional questions reach me at : ${data.eaddress}
   `;
   }
+
+  module.exports = generateMarkdown;
